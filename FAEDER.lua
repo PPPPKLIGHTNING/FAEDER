@@ -7559,7 +7559,7 @@ if not faederdx1:get(FAEDER..'bot:bots:mute'..msg.chat_id_) then
 if faederdx1:get(FAEDER..'lang:gp:'..msg.chat_id_) then 
 faederdx(msg.chat_id_, msg.id_, 1, '🚦⁞ Has been lock bots ☑️', 1, 'md')
 else
-local faeder = '🚦⁞ رتبتك : '..tar..' •\n🎖⁞ تم قفل البوتات • \n📌⁞ بواسطه «'..msg.sender_user_id_..'» •'
+local faeder = '🚦⁞ رتبتك : '..tar..' •\n🎖⁞ تم قفل  • \n📌⁞ بواسطه «'..msg.sender_user_id_..'» •'
 faedrmoned(msg.chat_id_, msg.sender_user_id_, msg.id_, faeder, 57, string.len(msg.sender_user_id_))
 end
 faederdx1:set(FAEDER..'bot:bots:mute'..msg.chat_id_,true)
